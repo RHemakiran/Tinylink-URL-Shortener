@@ -323,7 +323,9 @@ export default function Dashboard() {
               {searchQuery ? 'No links match your search.' : 'No links yet.'}
             </p>
             {!searchQuery && (
-              <p className="text-gray-500">Click &quot;Create New Link&quot; to get started!</p>
+              <p className="text-gray-500">
+                Click {'"'}Create New Link{'"'} to get started!
+              </p>
             )}
           </div>
         ) : (
